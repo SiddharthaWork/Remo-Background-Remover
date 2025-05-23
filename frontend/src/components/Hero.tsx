@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from './ui/button'
 import { ChevronRight } from 'lucide-react'
 import { Badge } from "@/components/ui/badge"
+import About from './About'
 const Hero = () => {
     return (
         <div className="relative h-screen w-full bg-black">
@@ -16,8 +17,8 @@ const Hero = () => {
                         <br />
                         Transparent Image
                     </h1>
-                    <p className='text-white/80 text-lg font-semibold'>
-                        Our AI tool removes backgrounds from your photos <br /> with pixel-perfect precision.
+                    <p className='text-white/80 text-xl font-semibold'>
+                        Our AI tool removes backgrounds from your — <br />photos  with pixel-perfect precision.
                     </p>
                     <div className='mt-4 flex gap-6 items-center'>
                         <Button variant="green" className='md:w-[12rem] text-xl py-6 flex gap-4 items-center'>Get Started
@@ -31,6 +32,8 @@ const Hero = () => {
                 </div>
 
             </div>
+            <About/>
+            
         </div>
     )
 }
