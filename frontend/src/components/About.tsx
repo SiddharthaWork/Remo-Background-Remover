@@ -24,7 +24,7 @@ const About = () => {
 
             <div className='flex-col flex gap-4 items-center justify-center'>
                 <div className='flex gap-2 items-center'>
-            <img src="product.svg" alt="" />
+            <img src="product.svg" alt="product" />
                 <h1 className='text-4xl font-bold flex gap-2 items-center'>5 <span className='text-xl'>⭐</span></h1>
                 </div>
                 <h1 className='text-lg font-semibold'>Product Hunt</h1>
