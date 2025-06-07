@@ -36,7 +36,6 @@ const About = () => {
                 <h1 className='text-4xl font-bold flex items-center gap-2'>4.9 <span className='text-xl'>⭐</span> </h1>
                 </div>
                 <h1 className='text-lg font-semibold'>Google Rating</h1>
-// To Be Continue 
             </div>
         </div>
     </div>

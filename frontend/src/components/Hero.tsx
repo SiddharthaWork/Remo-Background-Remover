@@ -3,6 +3,7 @@ import { Button } from './ui/button'
 import { ChevronRight } from 'lucide-react'
 import { Badge } from "@/components/ui/badge"
 import About from './About'
+import { Upload } from 'lucide-react'
 const Hero = () => {
     return (
         <div className="relative h-screen w-full bg-black">
@@ -21,8 +22,9 @@ const Hero = () => {
                         Our AI tool removes backgrounds from your — <br />photos  with pixel-perfect precision.
                     </p>
                     <div className='mt-4 flex gap-6 items-center'>
-                        <Button variant="green" className='md:w-[12rem] text-xl py-6 flex gap-4 items-center'>Get Started
-                            <ChevronRight />
+                        <Button variant="green" className='md:min-w-[12rem] text-xl py-6 flex gap-2 px-4 items-center'>
+                        <Upload size={52} />
+                            Upload your image
                         </Button>
                         <p>Try it for <br /><span className='font-bold text-2xl text-[#61db3f]'>Free</span></p>
                     </div>
