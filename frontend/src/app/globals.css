@@ -121,3 +121,20 @@
   }
 }
 
+
+.slider{
+  -webkit-appearance: none;
+  background: transparent;
+  height: 100%;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 30px;
+  min-height: 30px;
+  background-image: url(/slide_icon.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
