@@ -16,7 +16,7 @@ const Navbar = () => {
   }, [])
   
   return (
-    <div className='w-full h-[4rem] border-b-2 border-border/40 flex items-center justify-between px-8 overflow-hidden'>
+    <div className='w-full h-[4rem] bg-transparent sticky top-0 z-50 border-b-2 border-border/20 flex items-center justify-between px-8 overflow-hidden'>
       <Link href="/">
         <img 
           src={mounted && theme === 'dark' ? "/logo-dark.png" : "/logo-white.png"} 
