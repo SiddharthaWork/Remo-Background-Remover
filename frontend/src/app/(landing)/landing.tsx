@@ -7,7 +7,7 @@ import Footer from '@/components/Footer'
 
 const Landing = () => {
   return (
-    <div className=' bg-black'>
+    <div className='dark:bg-black bg-white'>
         <Navbar/>
         <Hero/>
         <Slider/>
